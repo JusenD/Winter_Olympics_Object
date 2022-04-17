@@ -18,6 +18,23 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Administrator.cpp" />
+    <ClCompile Include="Calculator.cpp" />
+    <ClCompile Include="CMD.cpp" />
+    <ClCompile Include="Data.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="SQL.cpp" />
+    <ClCompile Include="User.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Administrator.h" />
+    <ClInclude Include="Calculator.h" />
+    <ClInclude Include="CMD.h" />
+    <ClInclude Include="Data.h" />
+    <ClInclude Include="SQL.h" />
+    <ClInclude Include="User.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -29,26 +46,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -140,23 +157,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\OneDrive - 南京大学\桌面\winter\Administrator.h" />
-    <ClInclude Include="..\..\..\..\OneDrive - 南京大学\桌面\winter\Calculator.h" />
-    <ClInclude Include="..\..\..\..\OneDrive - 南京大学\桌面\winter\CMD.h" />
-    <ClInclude Include="..\..\..\..\OneDrive - 南京大学\桌面\winter\Data.h" />
-    <ClInclude Include="..\..\..\..\OneDrive - 南京大学\桌面\winter\SQL.h" />
-    <ClInclude Include="..\..\..\..\OneDrive - 南京大学\桌面\winter\User.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\OneDrive - 南京大学\桌面\winter\Administrator.cpp" />
-    <ClCompile Include="..\..\..\..\OneDrive - 南京大学\桌面\winter\Calculator.cpp" />
-    <ClCompile Include="..\..\..\..\OneDrive - 南京大学\桌面\winter\CMD.cpp" />
-    <ClCompile Include="..\..\..\..\OneDrive - 南京大学\桌面\winter\Data.cpp" />
-    <ClCompile Include="..\..\..\..\OneDrive - 南京大学\桌面\winter\Main.cpp" />
-    <ClCompile Include="..\..\..\..\OneDrive - 南京大学\桌面\winter\SQL.cpp" />
-    <ClCompile Include="..\..\..\..\OneDrive - 南京大学\桌面\winter\User.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
