@@ -23,6 +23,8 @@ void CMD::init() {
 	Order::init();
 	User::init();
 }
+
+
 void CMD::circle() {
 	while (true) {
 		char choice[10];
