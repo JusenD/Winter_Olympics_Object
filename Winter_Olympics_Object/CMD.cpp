@@ -25,7 +25,7 @@ void CMD::init() {
 }
 //hahahahahaha
 
-
+//hahahahahaha
 void CMD::circle() {
 	while (true) {
 		char choice[10];
