@@ -23,7 +23,6 @@ void CMD::init() {
 	Order::init();
 	User::init();
 }
-
 //hahahahahaha
 void CMD::circle() {
 	while (true) {
