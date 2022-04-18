@@ -35,6 +35,7 @@ void CMD::circle() {
 		cout << "请输入操作：";
 		cin.getline(choice, 10);									//防止出现错误输入
 		if (strcmp(choice, "quit") == 0) break;
+		if (strcmp(choice, "woc") == 0) break;
 		if (strcmp(choice, "1") == 0) Administrator_Module();
 		else if (strcmp(choice, "2") == 0) Register();
 		else if (strcmp(choice, "3") == 0) User_Module();
