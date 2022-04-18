@@ -40,6 +40,7 @@ void CMD::circle() {
 		else if (strcmp(choice, "2") == 0) Register();
 		else if (strcmp(choice, "3") == 0) User_Module();
 		else if (strcmp(choice, "4") == 0) exit(0);
+		else if (strcmp(choice, "az") == 0) break;
 		else cout << "输入错误\n";
 	}
 }
